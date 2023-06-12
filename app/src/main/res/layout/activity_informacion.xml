@@ -21,15 +21,27 @@
 
     <TextView
         android:id="@+id/textovista"
-        android:layout_width="57dp"
-        android:layout_height="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
-        android:text="Hola!"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="53dp"
+        android:text="Se ha ingresado correctamente la informacion."
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="389dp"
+        android:layout_height="564dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="137dp"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>
